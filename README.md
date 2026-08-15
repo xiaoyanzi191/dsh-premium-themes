@@ -15,6 +15,21 @@ text, code surfaces, the sidebar, and scrollbars. Selections persist across
 reloads and browser sessions; the **默认 (Default)** chip restores the
 light/dark/system preference that was active before the palette was chosen.
 
+## Screenshots
+
+The Palette row in settings — eight built-in chips, the imported **墨玉翡翠** chip and the
+**导入配色** import button:
+
+![Palette row in settings](docs/screenshots/palette-row.png)
+
+| Paper Gold — 羊皮纸金 (light) | Tokyo Night — 东京夜 (dark) |
+|:---:|:---:|
+| ![Paper Gold](docs/screenshots/paper-gold.png) | ![Tokyo Night](docs/screenshots/tokyo-night.png) |
+
+| 墨玉翡翠 — imported custom palette (dark) | Default light (base) |
+|:---:|:---:|
+| ![Jade](docs/screenshots/jade-dark.png) | ![Default](docs/screenshots/default-light.png) |
+
 ## Custom palette import
 
 Give a **name**, a **scheme** (light/dark), a **background** and an **accent**
