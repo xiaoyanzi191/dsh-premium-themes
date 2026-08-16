@@ -1,0 +1,7 @@
+# dsh-premium-themes bundle patch layer — insert one loader entry for the
+# plugin package. The browser half is picked up by dsh-client-modules through
+# the package's dsh.client declaration, exactly like the shipped ui-* packages.
+# This patch is what makes `dsh plugin --profile web add @deepseek-ai/dsh-client-ui-premium-themes` work.
+- insert:
+    - id: premium-themes
+      name: '@deepseek-ai/dsh-client-ui-premium-themes'
